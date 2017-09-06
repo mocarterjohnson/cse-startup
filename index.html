@@ -24,13 +24,30 @@ How do you add an image to a webpage? What is the importance of the alt tag?
 What does a comment look like in HTML?
     <!-- Comment content -->
 What does CSS stand for? What is it?
+    Cascading Style Sheets. Its the language used to modify html to make it actually look good and have different colors, fonts, etc.
 Why do we want to put stylings in a separate CSS file instead of in the html head?
+    It seperates the two and gives them distinct areas where they should be. It makes it so the code is easier to read and so that the
+    html file isn't super long and complicated. Overall creates better workflow. You can also link one style sheet to multiple html
+    pages so you don't have to rewrite code.
 How do you link a CSS file to an HTML file?
+    Use <link> in the head tag and make sure to set he type to "text/css" and the rel to "stylesheet"
 What is the anatomy of a CSS declaration?
+    The declaration is inside the tag that you want to modify (selector) and includes the part you want to change (property) and what 
+    you want to change it to (value)
 How do you assign two html elements the same properties at the same time?
+    You can just put a comma between the two elements when making them selectors and then declaring everything else the same way
 What are some best practices for writing CSS code?
+    Try to start with the most broad selector at the top so you can overwrite other smaller tags and sections. Make sure to indent 
+    correctly. 
 What does a comment look like in CSS?
+    /* Comments in CSS are exactly like multi-line comments in Java */
 What property do you change to set the text color of an element? What about the background color?
-What is a named color and where can you find a list of them?
+    You change the "color" property for the text color and the "background-color" for the background
+What is a named color and where can you find a list of them?\
+    A named color is a color that can be called just by writing its keyword instead of using a hexadecimal or RGB values. 
+    There is a list of them online @ http://www.colors.commutercreative.com/grid/
 How many possible colors are there using RGB?
+    16,777,216
 Why must we sometimes include redundant color options in our CSS code?
+    That way our code can be used by different browsers and they will be supported no matter what even if a certain browser doesn't 
+    support a certain delcaration, it will most likely support one of the others put in place.
